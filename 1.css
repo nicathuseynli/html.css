@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    margin: 0;
+}
+body{
+    background-color: #4586de;
+    display: block;
+}
+.site{
+    width: 800px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: white;   
+}
+header{
+    padding: 50px;
+    overflow: hidden;
+}
+header>#logo{
+ font-size: 2em;
+ float: left;
+}
+nav{
+    float: right;
+}
+section{
+    width: 70%;
+    float: left;
+}
+main{
+    padding: 50px;
+    overflow: hidden;
+}
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid;
+}
+article:last-child{
+    border-bottom: 0
+}
+aside{
+    width: 30%;
+    float:right;
+    background-color: #fdd761;
+    padding: 10px;
+  }
+  aside>h3{
+    background-color: rgba(220, 20, 60, 0.651);
+    padding: 10px;
+    color: white;
+  }
+  

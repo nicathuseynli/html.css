@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+ }
+ body{
+ background-color: rgb(202, 241, 92);
+ }
+ #site{
+    border-radius: 12px;
+    border-style: outset;
+    background-color: rgb(57, 42, 192);
+    padding:3%;
+    color: white;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+ }
+ h1{
+    color: green
+ }
+ .color{
+    color: yellow;
+ }
+ .large-size{
+    font-size: 25px;
+    color: greenyellow;
+ }
+ .headr-size{
+    font-size: 50px;
+    color: greenyellow;
+    font-weight: 600;
+ }
+ 
+ #img{
+    width: 200px;
+    float: left;
+ }
+ .IMDB{
+    color: rgb(202, 210, 69);
+ }
+ 
